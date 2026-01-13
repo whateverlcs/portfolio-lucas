@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --portfolioTitleLight: #0B132A;
+    --portfolioTitleDark: #FFFFFF;
+    --portfolioSubtitleLight: #64666D;
+    --portfolioSubtitleDark: #8F929C;
+    --portfolioDescriptionLight: #4F5665;
+    --portfolioDescriptionDark: #8F929C;
+    --portfolioBackgroundLight: #FFFFFF;
+    --portfolioBackgroundDark: #0B132A;
+    --portfolioMain: #3A0CA3;
+    --portfolioMainHover: #491AB5;
+    --portfolioMenuDark: #60a5fa;
+    --portfolioMenuLight: #3a0ca3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white dark:bg-portfolioBackgroundDark text-gray-900 dark:text-gray-100 transition-colors duration-300;
+    font-family: 'Rubik', cursive;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-700 rounded-lg;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-gray-600;
+  }
+}
+
+@layer components {
+  .supermercado-one {
+    font-family: 'Supermercado One', cursive;
+  }
+  
+  .btn-primary {
+    @apply bg-portfolioMain text-white px-10 py-5 rounded-lg font-semibold 
+           hover:bg-portfolioMainHover transition-colors duration-300 focus:outline-none 
+           focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 
+           px-6 py-3 rounded-lg font-semibold hover:border-blue-600 dark:hover:border-blue-500 
+           hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 
+           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 
+           dark:focus:ring-offset-gray-900;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  }
+  
+  /* Utilitários para dark mode */
+  .dark-scrollbar {
+    scrollbar-color: #4B5563 #1F2937;
+    scrollbar-width: thin;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
