@@ -97,6 +97,8 @@ VITE_CV_PT_ID=id_google_drive_portugues
 VITE_CV_EN_ID=id_google_drive_english
 ```
 
+## 🎨 Figma - [Clique aqui para acessar o figma do projeto](https://www.figma.com/design/l832qpk14zIXICJuB5BXxo/Portifolio?node-id=0-1&t=rqbD6MBwWpWu5l0D-1)
+
 ## 🤝 Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
