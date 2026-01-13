@@ -14,20 +14,20 @@
 
 ## 📽 Projeto em Produção
 <h5>
-    -> 
+    -> https://portfolio-lucas-flax.vercel.app/
 </h5>
 
 ## 🖥 Layout
 <p align="center">
-  <img alt="Home" title="Home" src="">
+  <img alt="Home" title="Home" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/home.jpg">
   
-  <img alt="Habilidades" title="Habilidades" src="">
+  <img alt="Habilidades" title="Habilidades" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/habilidades.jpg">
   
-  <img alt="Projetos" title="Projetos" src="">
+  <img alt="Projetos" title="Projetos" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/projetos.jpg">
   
-  <img alt="Experiência" title="Experiência" src="">
+  <img alt="Experiência" title="Experiência" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/experiencia.jpg">
   
-  <img alt="Contato" title="Contato" src="">
+  <img alt="Contato" title="Contato" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/contact.jpg">
 </p>
 
 ## 🛠️ Tecnologias Utilizadas
