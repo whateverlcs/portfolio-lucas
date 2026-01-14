@@ -14,20 +14,20 @@
 
 ## 📽 Projeto em Produção
 <h5>
-    -> 
+    -> https://portfolio-lucas-flax.vercel.app/
 </h5>
 
 ## 🖥 Layout
 <p align="center">
-  <img alt="Home" title="Home" src="">
+  <img alt="Home" title="Home" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/home.jpg">
   
-  <img alt="Habilidades" title="Habilidades" src="">
+  <img alt="Habilidades" title="Habilidades" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/habilidades.jpg">
   
-  <img alt="Projetos" title="Projetos" src="">
+  <img alt="Projetos" title="Projetos" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/projetos.jpg">
   
-  <img alt="Experiência" title="Experiência" src="">
+  <img alt="Experiência" title="Experiência" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/experiencia.jpg">
   
-  <img alt="Contato" title="Contato" src="">
+  <img alt="Contato" title="Contato" src="https://github.com/whateverlcs/portfolio-lucas/blob/main/assets/contact.jpg">
 </p>
 
 ## 🛠️ Tecnologias Utilizadas
@@ -47,63 +47,7 @@
 - **SEO Otimizado** - Meta tags e estrutura semântica
 - **Acessibilidade** - ARIA labels e navegação por teclado
 
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-- Node.js 16+ 
-- npm ou yarn
-
-### Passo a Passo
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/whateverlcs/portfolio-lucas.git
-
-# 2. Acesse a pasta do projeto
-cd portfolio-lucas
-
-# 3. Instale as dependências
-npm install
-# ou
-yarn install
-
-# 4. Configure as variáveis de ambiente
-cp .env.example .env.local
-# Edite o .env.local com seus dados
-
-# 5. Execute o projeto
-npm run dev
-# ou
-yarn dev
-
-# 6. Acesse no navegador
-```
-
-## 🏨 Estrutura .env.local
-
-```bash 
-# Dados Pessoais
-VITE_EMAIL=seuemail@gmail.com
-VITE_PHONE=+55 (11) 99999-9999
-VITE_PHONE_WITHOUT_PATTERN=+5511999999999
-VITE_LOCATION_BR=Localização
-VITE_LOCATION_EN=Localização
-
-# Links Sociais
-VITE_LINKEDIN=https://www.linkedin.com/in/seuperfil/
-
-# IDs dos Currículos no Google Drive
-VITE_CV_PT_ID=id_google_drive_portugues
-VITE_CV_EN_ID=id_google_drive_english
-```
-
-## 🤝 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+## 🎨 Figma - [Clique aqui para acessar o figma do projeto](https://www.figma.com/design/l832qpk14zIXICJuB5BXxo/Portifolio?node-id=0-1&t=rqbD6MBwWpWu5l0D-1)
 
 ## 🤵 Autor
 
