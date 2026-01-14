@@ -58,7 +58,7 @@ export function Experience() {
       id="experience"
       className="section-padding bg-gray-50 dark:bg-gray-900 transition-colors duration-200"
     >
-      <div className="container-custom mb-56">
+      <div className="container-custom md:mb-56">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

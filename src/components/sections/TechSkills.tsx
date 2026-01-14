@@ -66,7 +66,7 @@ export function TechSkills() {
             {t.skillsTitle}
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mb-48">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 md:mb-48">
             {skillCategories.map((category, index) => {
               const Icon = category.icon;
               return (

@@ -83,7 +83,7 @@ export function Header() {
           </button>
 
           {/* Menu Desktop */}
-          <nav className="hidden md:flex flex-1 justify-center space-x-8">
+          <nav className="hidden md:flex flex-1 justify-center space-x-8 ml-44">
             {sections.map((section) => (
               <button
                 key={section.id}
