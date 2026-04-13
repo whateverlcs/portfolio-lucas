@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, type LucideProps } from "lucide-react";
+import { Mail, MapPin, type LucideProps } from "lucide-react";
 import {
   useTranslations,
   useLanguageContext,
@@ -23,15 +23,6 @@ const contactInfo: ContactInfo[] = [
     },
     value: configContactInfo.email,
     href: `mailto:${configContactInfo.email}`,
-  },
-  {
-    icon: Phone,
-    title: {
-      pt: "Telefone",
-      en: "Phone",
-    },
-    value: configContactInfo.phone,
-    href: `tel:${configContactInfo.phoneWithoutPattern}`,
   },
   {
     icon: MapPin,
